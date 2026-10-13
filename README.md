@@ -20,8 +20,8 @@ velocity layers or overlapping parameter systems.
 - A band-limited sawtooth built at power-up, so the Mirage plays as an analog
   synth before you record anything
 
-Orovela takes its name from the Georgian harvest song famously recorded by
-Hamlet Gonashvili.
+Orovela takes its name from the Georgian harvest song famously [recorded by
+Hamlet Gonashvili](https://www.youtube.com/watch?v=xWSEzPlwcrE).
 
 ## What's here
 
