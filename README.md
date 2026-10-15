@@ -1,6 +1,6 @@
 # Orovela
 
-**A new operating system for the Ensoniq Mirage DSK-8 sampler**, plus a
+**A new operating system for the Ensoniq Mirage sampler series**, plus a
 Windows sample manager for Orovela disks.
 
 Download the disk image, sample manager executable, and docs from the [Releases](https://github.com/krylenko/Orovela/releases) page.
@@ -8,8 +8,9 @@ Download the disk image, sample manager executable, and docs from the [Releases]
 Orovela is a from-scratch 6809 OS that replaces the stock Mirage firmware
 with a streamlined, synthesis-first instrument. Sample a sound and it's mapped
 across the whole keyboard, with immediate access to amp, filter and pitch
-parameters, all editable live from the mod wheel. There are no multisamples,
-velocity layers or overlapping parameter systems.
+parameters, all editable live from the mod wheel (and/or MIDI CC1).
+
+There are no multisamples, velocity layers or overlapping parameter systems.
 
 - 8 voices, each through its own analog CEM3328 4-pole filter, with the cutoff
   calibrated at boot and resonance up to controlled self-oscillation
@@ -21,6 +22,8 @@ velocity layers or overlapping parameter systems.
 - MIDI in, with CC1 driving the mod-wheel editor (works for rackmount units)
 - A band-limited sawtooth built at power-up, so the Mirage plays as an analog
   synth before you record anything
+
+Developed and tested on a DSK-1 keyboard variant, but expected to work on all Mirage models.
 
 Orovela takes its name from the Georgian harvest song famously [recorded by
 Hamlet Gonashvili](https://www.youtube.com/watch?v=xWSEzPlwcrE).
