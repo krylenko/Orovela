@@ -3,6 +3,8 @@
 **A new operating system for the Ensoniq Mirage DSK-8 sampler**, plus a
 Windows sample manager for Orovela disks.
 
+Download the disk image, sample manager executable, and docs from the [Releases](https://github.com/krylenko/Orovela/releases) page.
+
 Orovela is a from-scratch 6809 OS that replaces the stock Mirage firmware
 with a streamlined, synthesis-first instrument. Sample a sound and it's mapped
 across the whole keyboard, with immediate access to amp, filter and pitch
